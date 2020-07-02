@@ -1,10 +1,10 @@
-#clubList {
+#spotList {
     margin-top: 32px;
     width: 100%;
     padding: 16px;
 }
 
-#clubList > .placeholder {
+#spotList > .placeholder {
     font-weight: lighter;
     color: rgba(0,0,0,0.5);
     -webkit-user-select: none;
@@ -13,33 +13,41 @@
     user-select: none;
 }
 
-.club {
+.spot {
     margin-bottom: 18px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 10px;
-    overflow: hidden;
 }
 
-.club .fan-art-club {
+.spot .spotImage {
     width: 100%;
-    max-height: 300px;
+    max-height: 600px;
     object-fit: cover;
     object-position: center;
+    border-radius: 5px;
 }
 
-.club-info {
+.spot-info {
     padding: 24px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    text-align: justify;
 }
 
-.club-info > h2 {
+.spot-info > h2 {
     font-weight: lighter;
 }
 
-.club-info > p {
+.spot-info > p {
     margin-top: 10px;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 10; /* number of lines to show */
+}
+
+.spot:hover{
+    transition: 1s;
+	box-shadow: 0 25px 40px rgba(102,113,228, 0.6);
 }

@@ -1,7 +1,16 @@
 .app-bar {
     padding: 16px;
-    width: 100%;
-    background-color: cornflowerblue;
-    color: white;
+     height: 45px;
+    background-color: white;
+    
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    position: sticky;
+    top: 10;
+     color: rgba(15, 15, 221, 0.76);
+     z-index: 10;
+
+}
+.app-bar h2{
+    margin-top: 5px;
 }
