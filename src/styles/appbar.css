@@ -22,18 +22,23 @@
   font-size: 16px;
 
 }
-nav li {
+nav li a {
+  text-decoration: none;
 	font-size: 18px;
 	font-weight: 400;
 	text-decoration: none;
-	color: white;
+  color: white;
+  display: block;
 }
+
 
 nav li:hover {
 	font-weight: bold;
 	font-size:1.5em;
   text-decoration: underline;
-  color: red;
+  color: white;
+  background-color: whitesmoke;
+  height: 17px;
 }
 
 
@@ -42,3 +47,8 @@ header{
   top: 0;
   height: 90px;
 }
+
+ 
+
+
+
