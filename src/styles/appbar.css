@@ -1,16 +1,44 @@
 .app-bar {
-    padding: 16px;
-     height: 45px;
-    background-color: white;
+     
+     height: 90px;
+    background-color:  rgb(104, 102, 100);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 5px;
-     color: rgba(15, 15, 221, 0.76);
-     margin-top: 5px;
+     color: whitesmoke
+     
+
 }
-.app-bar h2{
-    margin-top: 5px;
+.logo {
+  
+    float: left;
+    font-size: 30px;
+    padding: 30px 50px;
 }
+.list li {
+
+  list-style: none;
+  float: right;
+  padding: 37px 30px;
+  font-size: 16px;
+
+}
+nav li {
+	font-size: 18px;
+	font-weight: 400;
+	text-decoration: none;
+	color: white;
+}
+
+nav li:hover {
+	font-weight: bold;
+	font-size:1.5em;
+  text-decoration: underline;
+  color: red;
+}
+
+
 header{
   position: sticky;
   top: 0;
+  height: 90px;
 }
