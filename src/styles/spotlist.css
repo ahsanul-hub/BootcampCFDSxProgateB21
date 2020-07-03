@@ -39,6 +39,7 @@
 }
 
 .spot-info > p {
+    text-indent: 2em;
     margin-top: 10px;
     overflow: hidden;
     text-overflow: ellipsis;
